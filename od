@@ -1,1 +1,18 @@
 
+#include <stdio.h>
+#include <string.h>
+
+void main()
+{
+    int n,r=0;
+    printf("Enter the odd number n of n\n");
+    scanf("%d",&n);
+    for(int i=1;i<=n;i++)
+    {
+       if(i%2==!0)
+       {
+           r=r+i;
+       }
+    }
+    printf("sum of n terms is %d",r);
+}
